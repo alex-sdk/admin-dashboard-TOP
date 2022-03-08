@@ -5,20 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="wrapper">
+            <img class="search-icon" src="./images/magnify.svg" alt="search icon">
+            <input type="text" class="search" placeholder="Search...">
+        </div>
+    </header>
     <section class="sidebar">
-        <h1>Dashboard</h1>
+        <h1><img src="./images/view-dashboard.svg" alt="Dashboard logo">Dashboard</h1>
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><img src="./images/home.svg" alt="home logo" fill="white"><a href="">Home</a></li>
+                <li><img src="./images/account-details-outline.svg" alt="profile logo"><a href="">Profile</a></li>
+                <li><img src="./images/message.svg" alt="message logo"><a href="">Messages</a></li>
+                <li><img src="./images/clock.svg" alt="History logo"><a href="">History</a></li>
+                <li><img src="./images/file-multiple-outline.svg" alt="task logo"><a href="">Tasks</a></li>
+                <li><img src="./images/account-group.svg" alt="community logo"><a href="">Communities</a></li>
+            </ul>
+            <ul>
+                <li><img src="./images/cog.svg" alt="Settings logo"><a href="">Settings</a></li>
+                <li><img src="./images/message-question.svg" alt="Support logo"><a href="">Support</a></li>
+                <li><img src="./images/shield-check.svg" alt="Privacy logo"><a href="">Privacy</a></li>
             </ul>
         </nav>
     </section>
